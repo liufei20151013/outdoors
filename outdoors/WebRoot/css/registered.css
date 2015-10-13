@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#EFEFEF;
+}
+
+#bkground{
+	padding-top:4px;
+	height:800px;
+	width:900px;
+	background:#FFF;
+	border:#CCC solid 1px;
+	margin-top:100px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#png{
+	margin-right:8px;
+	height:18px;
+	vertical-align:text-bottom;
+}
+#title{
+	margin-top:10px;
+	margin-left:15px;	
+}
+hr{
+	width:870px;
+	size:1px;
+	color:#EFEFEF;
+}
+#fml,ul{
+	list-style:none;
+	margin-top:40px;
+	margin-left:200px;
+}
+#username,#email,#password,#oldPassword,#confirmpassword,#qq,#Phone,#nickName{
+	width:300px;
+	height:35px;
+}
+#judgema{
+	width:150px;
+	height:35px;
+}
+li{
+	margin-bottom:20px;
+}
+#submitBut,#resetBut{
+	margin-top:15px;
+	margin-right:35px;
+	width:80px;
+	height:35px;
+}
+#showmaid{
+	border:#CCC solid 1px;
+	width:150px;
+	height:39px;
+	margin-left:78px;
+	background-color:#3FF;
+}
+#sub{
+	margin-left:335px;
+}
+a{
+	margin-left:95px;
+}
+a:link,a:visited{
+	font-weight:bold;
+	color:#F03;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}/* CSS Document */
+

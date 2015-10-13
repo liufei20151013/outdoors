@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#efefef;
+	font-family:microsoft yahei;
+}
+#bkground{
+	min-height:800px;
+	width:75%;
+	margin-top:50px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#img{
+	width:75%;
+	height:200px;
+}
+hr{
+	border:3px solid #1e90ef;
+	width:65%;
+	margin-left:275px;
+	margin-top:-110px;
+	margin-bottom:80px;
+}
+.line{
+}
+#img-hero{
+	margin-left:50px;
+	margin-top:0px;
+	height:90%;
+}
+#login{
+	margin-top:50px;
+	padding-top:30px;
+	width:80%;
+	height:500px;
+	background-color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+#up{
+	width:300px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#down{
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+ul{
+	padding-left:0px;
+}
+li{
+	list-style:none;
+	margin-bottom:20px;
+}
+#username,#password,#judgema{
+	width:300px;
+	height:35px;
+}
+#forgetpsw{
+	float:right;
+}
+a:link,a:visited{
+	color:#CCC;
+	text-decoration:none;
+}
+#subbut{
+	border-bottom-color:#F39;
+	background-color:#FFF;
+	width:300px;
+	height:35px;
+	
+}

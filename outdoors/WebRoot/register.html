@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册页面</title>
+</head>
+<link rel="stylesheet" href="css/registered.css" type="text/css" />
+<script type="text/javascript" src="js/registered.js"></script>
+
+<body onLoad="showMa()" style="font-family: microsoft yahei">
+	<div id="bkground">
+    	<div id="title">
+        	<img id="png" src="images/customer/shangbiao.png"/>注册账户 
+        </div>
+        <hr/>
+        <div>
+        	<form id="fm1" method="post" action="RegisterServlet">
+            	<ul>
+                	<li><span>&nbsp;&nbsp;用户名&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  		<input onBlur="judgeName()"  id="username" name="username"  class="" type="text" value=""/>
+                        <span id="showName"></span>
+                	</li>
+                	<li><span>&nbsp;&nbsp;验证邮箱&nbsp;</span>
+                  		<input onBlur="judgeMail()"  id="email" name="email"  class="" type="text" value=""/>
+                        <span id="showMail"></span>
+                	</li>
+                	<li><span>&nbsp;&nbsp;登录密码&nbsp;</span>
+                 		<input onBlur="judgePsd()"  id="password" name="password"  class="" type="password" value=""/>
+                        <span id="showPsd"></span>
+                	</li>
+                	<li><span>&nbsp;&nbsp;确认密码&nbsp;</span>
+                		<input onBlur="judgePsdA()" id="confirmpassword" name="confirmpassword" class="" type="password" value=""   />
+                        <span id="showPsdA"></span>
+                	</li>
+                	<li><span>&nbsp;&nbsp;昵称&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  		<input onBlur="judgeNickName()"  id="nickName" name="nickName"  class="" type="text" value=""/>
+                        <span id="showNickName"></span>
+                	</li>
+                	<li><span>&nbsp;&nbsp;电话号码&nbsp;</span>
+                  		<input onBlur="judgePhone()"  id="phone" name="phone"  class="" type="text" value=""/>
+                        <span id="showPhone"></span>
+                	</li>
+                	<li><span>&nbsp;&nbsp;qq号码&nbsp;&nbsp;&nbsp;</span>
+                  		<input onBlur="judgeQq()"  id="qq" name="qq"  class="" type="text" value=""/>
+                        <span id="showQq"></span>
+                	</li>
+                	<li><span>&nbsp;&nbsp;性别&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  		<input name="gender" type="radio" value="男"
+	                  		
+                  		/>男
+                  		<input name="gender" type="radio" value="女"
+                  			
+                  		/>女
+                	</li>
+                    <li>
+                    	<span>&nbsp;&nbsp;验证码&nbsp;&nbsp;&nbsp;</span>
+                        <input onBlur="judgeMa()"  id="judgema" name="judgema" class="judgema" type="text" value=""/>
+                        <span id="showJud"></span>
+                    </li>
+                    <li>
+                    	<div id="showmaid" style="font-size:36px; font-family:'隶书'; text-align:center;"></div>
+                    	<input type="hidden" name="judgemaagain" value="">
+                    </li>
+                    <li>
+                    	<a href="javascript:void(0)" onClick="showMa()">看不清楚？换一张</a>
+                    </li>
+                </ul>
+            </form>
+            <div id="sub">
+            	<input id="submitBut" type="button" value="确定" onClick="submitCheckForm()" />
+                <input id="resetBut" type="button" value="取消" onClick="resetForm()" />
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

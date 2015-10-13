@@ -1,0 +1,107 @@
+
+body{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#f2f2f2;
+	padding: 0px;
+	width: 1340px;
+   	font-family:microsoft yahei;
+}
+.noticeBox{
+	 width:10%;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15%;
+	
+}
+.noticeBox img{
+    width:200px;
+	height:200px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.noticeBox p{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:20px;
+}
+.friendExposeFriendBox{
+	width:75%;
+	height:950px;
+	border:1px solid #ccc;
+	margin:auto;
+}
+.firstFriend{
+   width:100%;
+	height:30px;
+	margin-bottom:20px;
+	font-size:22px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EBF1F7,endColorStr=#2C8AD3); /*IE 6 7 8*/ 
+
+background: -ms-linear-gradient(top, #EBF1F7, #2C8AD3);        /* IE 10 */
+
+background:-moz-linear-gradient(top,#EBF1F7,#2C8AD3);/*火狐*/ 
+
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#EBF1F7), to(#2C8AD3));/*谷歌*/ 
+
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBF1F7), to(#2C8AD3));      /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, #EBF1F7, #2C8AD3);   /*Safari5.1 Chrome 10+*/
+
+background: -o-linear-gradient(top, #EBF1F7, #2C8AD3);  /*Opera 11.10+*/
+}
+.exposeFriendInformation{
+	width:100%;
+	min-height:300px;	
+}
+ul{
+	list-style:none;
+}
+.friendSimpleInfoLi{
+	width:450px;
+	height:150px;
+	background:white;
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.friendImage{
+	width:80px;
+	height:150px;
+	float:left;
+}
+.friendWriteCount{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+.friendImage img{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	margin-left:10px;
+	margin-top:20px;
+}
+.friendNickName,.friend,.buttonOpeartion{
+	height:30px;
+}
+.setComment{
+	width:100px;
+	height:30px;
+	display:block;
+	border:1px solid #ccc;
+	line-height:30px;
+	text-align:center;
+}
+a:link{
+	text-decoration:none;
+	color:#000;
+}
+.number{
+	color:#1e90ef;
+}

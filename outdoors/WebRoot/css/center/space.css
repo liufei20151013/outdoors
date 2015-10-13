@@ -1,0 +1,77 @@
+body{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0px;
+	overflow-x:hidden;
+}
+.UserSpaceBigBox{
+	width:100%;
+	height:200px;
+	margin:0;
+	padding:0;
+}
+
+.simpleInfo{
+	width:96%;
+	height:130px;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	top:30px;
+	left:17%;
+}
+.yourImage,.friendInformation {
+	float:left;
+	font-family:microsoft yahei;
+	margin-left:20px; 
+	height:130px;
+}
+.yourImage img{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	border:5px solid white;
+}
+.userNickName{
+	height:50px;
+	font-size:30px;
+	margin-top:10px;
+}
+.addCareBox{
+	width:140px;
+	height:30px;
+	margin-top:10px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:30px;
+	font-size:20px;
+	border:1px solid #ccc;
+}
+a:link{
+	color:#1e90ef;
+	text-decoration:none;
+}
+a:hover{
+	color:orange;
+}
+a:visited{
+	color:#000;
+}
+.countActiveFootFriendFans{
+	width:35%;
+	height:80px;
+	font-family:microsoft yahei;
+	text-align:center;
+	margin-top:20px;
+	margin-left:600px;
+	font-size:20px;
+}
+.articleCount,.activityCount,.friendCount,.fansCount{
+	float:left;
+	margin-left:10px;
+	width:50px;
+	height:50px;
+}

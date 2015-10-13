@@ -1,0 +1,246 @@
+.footPrintBox{
+	width:1360px;
+	min-height:2500px;
+	border:1px solid #f2f2f2;
+	margin:auto;
+	position: relative;
+}
+.footPrintFaceAndSimpleInfo,.imageBox{
+	width:100%;
+	height:400px;
+	position:relative;
+}
+.imageBox img{
+    width:100%;
+	height:400px;
+}
+.buttonFile{
+	width:150px;
+	height:60px;
+	position:absolute;
+	top:30px;
+	left:85%;
+}
+
+  .mybutton{
+        padding:0; 
+        display:block; 
+        float:left; 
+        background:gray;
+        font-size:17px;
+        font-family: "microsoft yahei"; 
+        color:white; 
+        z-index:1; 
+        vertical-align:middle;
+        cursor: hand;
+        width:100px;
+        height:40px;
+    	margin-right:0px;
+  	    filter:alpha(opacity=65);
+        opacity:0.65;
+  	    border:none; 
+  	border-radius:50%;
+  }  
+  .myfile{
+    	 float:left;
+         overflow:hidden;
+         filter:alpha(opacity=0);
+         opacity:0;
+         width: 100px;
+    	 height:50px;
+    	 border:1px solid white;
+  	     margin-top:-40px;
+  }
+.simpleInfo{
+	width:96%;
+	height:110px;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	top:270px;
+	left:2%;
+}
+.yourImage,.footPrint{
+	float:left;
+	font-family:microsoft yahei;
+	margin-left:20px;
+	position:relative;
+}
+.yourImage img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:5px solid white;
+}
+.footPrintName{
+	height:30px;
+	margin-top:10px;
+	font-size:30px;
+	margin-bottom:20px;
+	color:white;
+}
+
+.footPrintDetail{
+	width:75%;
+	min-height:1000px;
+	float:left;
+	margin-top:40px;
+}
+.IfootPrintlink{
+	width:22%;
+	height:500px;
+	float:left;
+	position:absolute;
+	top:17.6%;
+	left:78%;
+}
+h3{
+	font-weight:normal;
+	color:gray;
+	font-family:microsoft yahei;
+	border-bottom:1px solid #ccc;
+	line-height:20px;
+}
+table{
+	width:100%;
+	height:390px;
+	font-family:microsoft yahei;
+	margin-top:-10px;
+}
+table tr td{
+	border-top:1px dotted #ccc;
+}
+table img{
+	width:80px;
+	height:57px;
+}
+.linkMotto{
+	font-size:13px;
+}
+.linkName,.linkMotto{
+	color:gray;
+}
+a:link{
+	color:#000;
+	text-decoration:none;
+	
+}
+a:hover{
+	color:#1e90ef;
+}
+a:visited{
+	color:#000;
+}
+.perfaceDisplay{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	border-bottom:3px solid #ccc;
+	margin-top:0px;
+	font-family:microsoft yahei;
+	position:relative;
+	
+}
+.startTimeAndConsistTime{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	font-family:microsoft yahei;
+}
+#styleImage,.styleImageP,#startTimeImage,.startTimeP,#consistTimeImage,.consistTimeP{
+	float:left;
+}
+#startTimeImage,#consistTimeImage,#styleImage{
+	margin-top:8px;
+	
+}
+.startTimeP,.consistTimeP,.styleImageP{
+	width:180px;
+	height:50px;
+	margin-top:0px;
+	margin-left:5px;
+}
+.moodWord,.dayDetail{
+	width:100%;
+}
+.beginningWordTopic,.beginningWordTopic p,.dayCount{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background:#1e90ef;
+	font-family:microsoft yahei;
+	font-size:26px;
+	color:#fff;
+	text-align:center;
+}
+.dayImageAndWord img{
+	max-width:700px;
+	max-height:600px;
+}
+.beginningWord,.everydayWord{
+	text-indent:2em;
+	line-height:30px;
+}
+.imageAndDecription{
+	margin:20px 0px 0px 20px;
+}
+.imageDecription{
+	margin:20px 2px 20px 0px;
+}
+.userInformation{
+	height:350px;
+	width:250px;
+	z-index:2;
+	position:absolute;
+	top:-110px;
+	left:100%;
+	background:#f2f2f2;
+	display:none;
+}
+.backgroundImage{
+	width:100%;
+	height:150px;
+	background-image:url(../../../images/frontdesk/space/article/world.jpg);
+}
+.userImage{
+	width:110px;
+	height:110px;
+	margin:auto;
+	margin-top:-80px;
+}
+.userImage img{
+	width:100px;
+	height:100px;
+	border:5px solid #fff;
+	border-radius:50%;
+	margin:auto;
+}
+.userNickName{
+	text-align:center;
+	font-family:microsoft yahei;
+	font-size:21px;
+}
+.addCare{
+	text-align:center;
+	font-family:microsoft yahei;
+	width:80px;
+	height:25px;
+	border:1px solid #ccc;
+	margin:auto;
+	line-height:25px;
+	background:#87CEFA;
+}
+.writeCount{
+	width:100%;
+	height:100px;
+	font-family:microsoft yahei;
+	text-align:center;
+	margin-top:20px;
+	font-size:20px;
+}
+.footPrintCount,.activeCount,.friendCount,.fansCount{
+	float:left;
+	margin-left:10px;
+	width:50px;
+	height:50px;
+}

@@ -1,0 +1,37 @@
+
+.imageDescriptionBox{
+	outline: 0; 
+	border: 1px solid #a0b3d6;
+	border-color: rgba(255, 247, 178, 0.8);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);/*给框加上阴影****/
+  	min-height: 50px;
+}
+.imageItem {
+	width:700px;
+	margin-top:20px;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.footImage {
+	width:auto;
+	margin-bottom: 0px;
+}
+
+.footImage img {
+	max-height:400px;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+.footImageText {
+	min-height: 50px;
+	background: #f2f2f2;
+	margin-top: 0px;
+}
+.footImageText p{
+	position: absolute;
+	margin-top: 0px;
+	display: block;
+}

@@ -1,0 +1,51 @@
+#date_one{
+		width: 200px;
+		height: 40px;
+		border: 1px solid #ccc;
+		position: relative;
+		margin: 0px;
+	}
+	.click_text{
+		width: 200px;
+		height: 40px;
+	}
+	#date{
+		width: 40px;
+		height: 42px;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+		visibility:hidden;
+	}
+	#img_date{
+		margin: 12px;
+	}
+	#table_one{
+		border: 2px solid #00FF99;
+		width: 260px;
+		height: 40px;
+		cellpadding:0px;
+		cellspacing:0px;
+		margin-top: 5px;
+		margin-left: 515px;
+		border-bottom: none;
+	}
+	#date_box{
+		width: 260px;
+		height: 40px;
+		margin-left:380px;
+        position: absolute;
+        top: 218px;
+	}
+	#table_two{
+		width: 260px;
+		height: 200px;
+		border: 1px solid #00FF99;
+		position: absolute;
+		top: 385px;
+		left: 795px;
+		z-index: 1;
+	}
+	#first_month,#second_year{
+		outline: none;
+	}
